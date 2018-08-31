@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(208, 189, 222);
+  
+   
+}
+.container{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+   
+
+}
+.container > div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid purple;
+    font-size: 70px;
+  cursor: pointer;
+  text-align: center;
+  padding: 5px;
+
+  
+  
+}
+.container > div:hover{
+    background:grey;
+    color: #ffff;
+}
+button{
+    background: purple;
+    color: white;
+    font-size: 20px;
+    width: 170px;
+    height: 40px;
+    cursor: pointer;
+   border-radius: 6px;
+   padding: 10px;
+   margin: 0px;
+}
+
+span{
+    width: 85%;
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    color: white;
+    background: purple;;
+}
+
+
+h1{
+    font-size: 40px;
+    font-family:'Libre Baskerville', serif;
+    padding: 16px;
+
+}
+
+
+
+   
+
