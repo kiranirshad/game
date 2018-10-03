@@ -1,12 +1,12 @@
 let count = 0;
 function getWiner(boxNumb){
 
-    count += 1;
     let clickedBox = document.querySelector("#box" + boxNumb);
 
     if (clickedBox.innerHTML === "0" || clickedBox.innerHTML === "X") {
         return;
     }
+     count += 1;
     if (count % 2 === 0) {
         clickedBox.innerHTML = "X";
     } else {
