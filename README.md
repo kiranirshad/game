@@ -4,13 +4,14 @@ Project Title
 Play game to have fun
 
 INSTALLATION
+
 visual studio code
-sublime
+subline
 languages uses.
+
 HTML
 CSS
 JAVASCRIPT
-Link
 
 you can see web here..
 
